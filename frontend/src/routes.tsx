@@ -8,7 +8,7 @@ export function Routes() {
   return (
     <Layout>
       <Router>
-        <DashboardPage/>
+        <DashboardPage path="/dashboard" />
       </Router>
     </Layout>
   );
