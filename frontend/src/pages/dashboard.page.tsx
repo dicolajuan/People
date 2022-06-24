@@ -1,6 +1,5 @@
 import React, { FC } from "react";
 import { RouteComponentProps } from "@reach/router";
-// import styles from '../styles/Dashboard.module.css';
 
 export const DashboardPage: FC<RouteComponentProps> = () => {
     return (

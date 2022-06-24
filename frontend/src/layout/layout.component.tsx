@@ -1,12 +1,11 @@
 import React from "react";
 import { NavBar } from "./navbar";
-import { Props } from "../interfaces/childrenNode";
+import { ILayoutProps } from "../interfaces/layout";
 
-export const Layout: React.FC<Props> = ({ children }) => {
+export const Layout: React.FC<ILayoutProps> = ({ children }) => {
     return (
         <>
             <NavBar />
-
             {children}
         </>
     );
