@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
+import { NavBar } from "./navbar";
+import { ILayoutProps } from "../interfaces/layout";
 
-import { NavBar } from './navbar';
-
-export const Layout: React.FC<{}> = ({ children }) => {
-  return (
-    <>
-      <NavBar />
-      {children}
-    </>
-  );
+export const Layout: React.FC<ILayoutProps> = ({ children }) => {
+    return (
+        <>
+            <NavBar />
+            {children}
+        </>
+    );
 };
